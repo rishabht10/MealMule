@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+.top{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 2px solid black; */
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://images.unsplash.com/photo-1515844543590-2221dd1b4c3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1136&q=80");
+
+}
+
+.td1{
+    height: 15vh;
+    /* width: 100vw; */
+    margin:0.5vh;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.td2{
+    /* border: 2px solid red; */
+    height: 80vh;
+    padding-left: 4vw;
+    /* width: 100vw; */
+    margin:0.5vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.td3{
+    /* border: 2px solid rgb(128, 110, 110); */
+    height: 10vh;
+    /* width: 100vw; */
+    margin:0.5vh;
+    background-color: rgb(61, 61, 65);
+}
+
+ul{
+    margin-left: 55vw;
+    justify-content: flex-end;
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+li{
+    margin-left: 1.8vw;
+}
+.logo{
+    height: 12vh;
+    width: 18vh;
+    /* border: 2px solid red; */
+}
+.p1{
+    font-size: 5vmin;
+    width: 18vw;
+    color: bisque;
+    font-family: 'Playfair Display';
+}
+.p2{
+    font-size: 2.8vmin;
+    width: 34vw;
+    color: bisque;
+}
+
+.free{
+    width: 18vh;
+}
+.demo{
+    background:none;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+}
+
+span{
+    color: rgb(255, 111, 0);
+}
